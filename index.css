@@ -1,0 +1,33 @@
+*{
+    margin:0%;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+.navbar-brand{
+    width: 10%;
+}
+.navbar{
+    background-color: #0c0b0b;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.fa-bars{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* home */
+#home{
+    background-image:url(https://img.freepik.com/free-photo/green-pears-apples-basket_114579-11848.jpg?t=st=1738144528~exp=1738148128~hmac=ed01e35a6a7fe20fdad802f1336c26ffb65bc11b75b647858615b74d2042abb5&w=1380) ;
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 2px 3px black;
+}

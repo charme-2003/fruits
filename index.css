@@ -1,16 +1,17 @@
 *{
-    margin:0%;
+    margin: 0%;
     box-sizing: border-box;
-    /* border:1px solid red; */
+    /* border: 1px solid red; */
 }
-.navbar-brand{
+.navbar-brand
+{
     width: 10%;
 }
 .navbar{
-    background-color: #0c0b0b;
+    background-color: #e91e63;
 }
 .nav-link{
-    color: white;
+    color:white !important;
     font-weight: bold;
 }
 .fa-bars{
@@ -20,7 +21,7 @@
 }
 /* home */
 #home{
-    background-image:url(https://img.freepik.com/free-photo/green-pears-apples-basket_114579-11848.jpg?t=st=1738144528~exp=1738148128~hmac=ed01e35a6a7fe20fdad802f1336c26ffb65bc11b75b647858615b74d2042abb5&w=1380) ;
+    background-image: url('https://img.freepik.com/free-psd/3d-illustration-with-berries-still-life_23-2151385119.jpg?t=st=1738144734~exp=1738148334~hmac=a5a25c13b4f2e158ead446065945fbbd9ba54c6783ccb2e6f294b35ebde1904b&w=996');
     width: 100vw;
     height: 70vh;
     background-size: cover;
@@ -30,4 +31,81 @@
     color: white;
     font-size: 50px;
     text-shadow: 1px 2px 3px black;
+    
+}
+.aboutcontent{
+    background-color: goldenrod;
+    padding: 3%;
+}
+.aboutcontent h1{
+    color: white;
+}
+.aboutcontent p{
+    color: white;
+    line-height: 35px;
+    text-align: left;
+}
+/* COROSOL */
+.carousel-item img{
+    aspect-ratio: 3/2;
+}
+#about{
+    margin-bottom: 5%;
+}
+/*  */
+.card img{
+    aspect-ratio: 4/4;
+}
+/* payment */
+.input-group-text{
+    background-color: #e91e63 !important;
+    color: white !important;
+    text-shadow: 1px 1px 1px black ;
+    border: none;
+}
+.fa-cc-mastercard{
+    color: orange;
+    font-size: 30px;
+    margin-top: 2%;
+}
+.fa-cc-visa{
+    color: skyblue;
+    font-size: 30px;
+    margin-top: 2%;
+}
+/* contact */
+.chead{
+    color: green;
+}
+.form-label{
+    color: #e91e63;
+    font-weight: bold;
+}
+#footer{
+    background-color: #ec4078;
+}
+.fhead{
+    color: white;
+    text-decoration: 2px solid gold underline;
+}
+.end h6{
+    color: white;
+    text-decoration: 2px solid green underline;
+}
+.end p{
+    color: white;
+}
+.icons .fa-brands{
+    color: white;
+    font-size: 30px;
+    margin:1%;
+}
+.icons .fa-brands:hover{
+    color :skyblue;
+}
+#atlast{
+    background-color: black;
+    padding: 1%;
+    color: white;
+    text-align: center;
 }
